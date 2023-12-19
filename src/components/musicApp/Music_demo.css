@@ -41,7 +41,7 @@ flex-direction:column;
 .container{
 	width:100%;
 	height:100vh;
-	//overflow:hidden;
+	/* overflow:hidden; */
   display:grid;
   grid-template-areas:'leftSidebar mainSection mainSection mainSection'
                       'leftSidebar mainSection mainSection mainSection'
@@ -49,7 +49,7 @@ flex-direction:column;
   background:#eaeaea;
   grid-template-rows:100px 1fr 100px;
    grid-template-columns:200px 1fr;
-  //gap:5px;
+  /* gap:5px; */
 }
 .grid-item{
   box-shadow:2px 2px 4px rgba(0,0,0,0.4);
@@ -110,8 +110,8 @@ flex-direction:column;
 .mainSection .topSearchBox{
 	width:100%;
 	display:flex;
-	//justify-content:space-between;
-	//background:orange;
+	/* justify-content:space-between; */
+	/* background:orange; */
 }
 .mainSection .topSearchBox .searchBox{
 	position:relative;
@@ -211,6 +211,5 @@ flex-direction:column;
     display:grid;
     grid-template-rows:50px 1fr;
 }
-
 
 }
